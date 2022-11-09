@@ -24,7 +24,7 @@ namespace FormsWmi
           return false;
       }
 
-      for (int i = 1; i < 10; i++) //Verificando se são Números Repetidos
+      for (int i = 0; i < 10; i++) //Verificando se são Números Repetidos
       {
         string StringRepetido = string.Concat(Enumerable.Repeat(i.ToString(), 11));
 
