@@ -62,6 +62,9 @@ namespace FormsWmi
 
       Resto = (Soma * 10) % 11;
 
+      if (Resto == 10)
+        Resto = 0;
+
       if (Resto.ToString() != Cpf[10].ToString())
         return false;
       #endregion
